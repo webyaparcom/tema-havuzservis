@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Fitness ve havuz; görseller temsilîdir.",
-    "en": "Fitness and pool; images are representative.",
-    "ar": "لياقة ومسبح؛ الصور تمثيلية."
+    "tr": "Havuz kurulum sonrası bakım, su analizi, filtre-pompa servisi ve sezon açılışı/kapanışı; görseller temsilîdir.",
+    "en": "Pool maintenance, water analysis, filter and pump service, and season opening/closing; images are representative.",
+    "ar": "صيانة المسابح وتحليل المياه وخدمة الفلتر والمضخة وافتتاح وإغلاق الموسم؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "fitness, havuz, spor",
-    "en": "fitness, pool, sport",
-    "ar": "لياقة، مسبح، رياضة"
+    "tr": "havuz bakımı, havuz servisi, su analizi, filtre ve pompa, sezon açılışı",
+    "en": "pool maintenance, pool service, water analysis, filter and pump, season opening",
+    "ar": "صيانة المسابح، خدمة المسابح، تحليل المياه، الفلتر والمضخة، افتتاح الموسم"
   },
   "category": "Kurumsal",
   "name": "Fit Havuz",

@@ -27,9 +27,9 @@
   "index": 2,
   "url": "",
   "text": {
-    "tr": "<h2>Kalite Politikamız</h2>\n<p>Net metin, ölçülü veri ve kayıt kültürü esastır.</p>",
-    "en": "<h2>Our quality policy</h2>\n<p>Clear text, measured data and a record culture are essential.</p>",
-    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>النص الواضح والبيانات المتوازنة وثقافة السجل أساسية.</p>"
+    "tr": "<h2>Kalite Politikamız</h2>\n<p>Su ölçümleri her ziyarette kayda geçer; kimyasallar etiketli ve güvenli saklanır; ekip eğitimlidir.</p>",
+    "en": "<h2>Our quality policy</h2>\n<p>Water measurements are logged at every visit; chemicals are labelled and stored safely; staff are trained.</p>",
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>تُسجَّل قياسات المياه في كل زيارة، وتُخزَّن المواد الكيميائية بعلامات واضحة وبشكل آمن، والفريق مدرَّب.</p>"
   },
   "title": {
     "tr": "Kalite Politikamız",
@@ -37,7 +37,7 @@
     "ar": "سياسة الجودة"
   },
   "date": "2026-11-05T18:57:22.424Z",
-  "update": "2026-11-06T00:01:15.710Z",
+  "update": "2026-11-12T07:36:01.668Z",
   "sablonIzi": "acedf6b7c400faec",
   "sablonIziDil": {
     "en": "587042c99dce90ca",

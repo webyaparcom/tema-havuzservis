@@ -21,9 +21,9 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Fitness ve havuz; görseller temsilîdir.",
-    "en": "Fitness and pool; images are representative.",
-    "ar": "لياقة ومسبح؛ الصور تمثيلية."
+    "tr": "Havuz bakım ve servis; görseller temsilîdir.",
+    "en": "Pool maintenance and service; images are representative.",
+    "ar": "صيانة وخدمة المسابح؛ الصور تمثيلية."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-06T00:01:15.687Z",
+  "update": "2026-11-12T07:36:01.644Z",
   "date": "2026-10-30"
 }

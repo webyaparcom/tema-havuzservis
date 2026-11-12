@@ -6,14 +6,14 @@
     "ar": "خدماتنا"
   },
   "description": {
-    "tr": "Kayıttan dengeye; dersten takibe.",
-    "en": "From registration to balance; from lesson to tracking.",
-    "ar": "من التسجيل إلى التوازن؛ من الدرس إلى المتابعة."
+    "tr": "Su kalitesinden ekipman bakımına, sezon hazırlığından arıza servisine.",
+    "en": "From water quality to equipment care, from season prep to repair visits.",
+    "ar": "من جودة المياه إلى صيانة المعدات، ومن تجهيز الموسم إلى زيارات الإصلاح."
   },
   "keyword": {
-    "tr": "Su & Hareket",
-    "en": "Water & Movement",
-    "ar": "ماء وحركة"
+    "tr": "Havuz servisi",
+    "en": "Pool service",
+    "ar": "خدمة المسابح"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:57:22.574Z",
-  "update": "2026-11-06T00:01:15.683Z"
+  "update": "2026-11-12T07:36:01.638Z"
 }

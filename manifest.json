@@ -1,7 +1,7 @@
 {
   "name": "Fit Havuz",
   "short_name": "Fit Havuz",
-  "description": "Fitness ve havuz; görseller temsilîdir.",
+  "description": "Havuz kurulum sonrası bakım, su analizi, filtre-pompa servisi ve sezon açılışı/kapanışı; görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",

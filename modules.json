@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Servis talebi",
+          "en": "Request service",
+          "ar": "اطلب خدمة"
         },
         "cta_url": "teklif-al"
       },
@@ -1522,7 +1533,7 @@
         "hiza": "orta",
         "yukseklik": 82,
         "max": "1200px",
-        "img": "spor-ders-salonu.webp",
+        "img": "spor-havuz.webp",
         "video": "",
         "poster": "",
         "alt": "Fit Havuz",
@@ -1533,30 +1544,30 @@
         "bg": "var(--mx-site-bg, #ffffff)",
         "radius": "16px",
         "eyebrow": {
-          "tr": "Havuz & fitness",
-          "en": "Pool & fitness",
-          "ar": "مسبح ولياقة"
+          "tr": "Havuz bakım ve servis",
+          "en": "Pool maintenance & service",
+          "ar": "صيانة وخدمة المسابح"
         },
         "title": {
-          "tr": "Hedef, kilitli",
-          "en": "Target, locked",
-          "ar": "هدف مقفل"
+          "tr": "Suyunuz berrak, havuzunuz hazır",
+          "en": "Clear water, a pool that's ready",
+          "ar": "ماء صافٍ ومسبح جاهز"
         },
         "metin": {
-          "tr": "Fit Havuz, fitness ve havuz sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Fit offers fitness and pool. Images are representative and text is fictional.",
-          "ar": "يقدم فيت لياقة ومسبح. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Konut, site ve otel havuzları için periyodik bakım, su analizi, filtre-pompa servisi ve sezon açılışı/kapanışı.",
+          "en": "Periodic maintenance, water analysis, filter and pump service, and season opening/closing for home, residential-complex and hotel pools.",
+          "ar": "صيانة دورية وتحليل للمياه وخدمة الفلتر والمضخة وافتتاح وإغلاق الموسم لمسابح المنازل والمجمعات السكنية والفنادق."
         },
         "cta1": {
-          "tr": "Programlar",
-          "en": "Programs",
-          "ar": "برامج"
+          "tr": "Hizmetlerimiz",
+          "en": "Our services",
+          "ar": "خدماتنا"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Deneme iste",
-          "en": "Trial booking",
-          "ar": "حجز تجريبي"
+          "tr": "Servis talebi",
+          "en": "Request service",
+          "ar": "اطلب خدمة"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Nasıl çalışır?",
-          "en": "How does it work?",
-          "ar": "كيف يعمل؟"
+          "tr": "Rakamlarla servisimiz",
+          "en": "Our service in numbers",
+          "ar": "خدمتنا بالأرقام"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1615,11 +1626,11 @@
         {
           "deger": 120,
           "sonek": "",
-          "ikon": "sports_esports",
+          "ikon": "pool",
           "etiket": {
-            "tr": "Haftalık seans",
-            "en": "Weekly session",
-            "ar": "جلسة أسبوعية"
+            "tr": "Bakımdaki havuz",
+            "en": "Pools under care",
+            "ar": "مسبح تحت الصيانة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1630,11 +1641,11 @@
         {
           "deger": 8,
           "sonek": "",
-          "ikon": "person",
+          "ikon": "build",
           "etiket": {
-            "tr": "Uzman",
-            "en": "Specialists",
-            "ar": "أخصائيون"
+            "tr": "Servis teknisyeni",
+            "en": "Service technicians",
+            "ar": "فنيو الخدمة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1645,11 +1656,11 @@
         {
           "deger": 95,
           "sonek": "%",
-          "ikon": "monitoring",
+          "ikon": "event_available",
           "etiket": {
-            "tr": "Su kontrolü",
-            "en": "Water control",
-            "ar": "تحقق الماء"
+            "tr": "Zamanında ziyaret",
+            "en": "On-time visits",
+            "ar": "زيارات في الموعد"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1658,13 +1669,13 @@
           }
         },
         {
-          "deger": 6,
+          "deger": 24,
           "sonek": "",
-          "ikon": "pool",
+          "ikon": "schedule",
           "etiket": {
-            "tr": "Havuz",
-            "en": "Pools",
-            "ar": "مسابح"
+            "tr": "Saat içinde arıza dönüşü",
+            "en": "Hours to fault response",
+            "ar": "ساعة للاستجابة للأعطال"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1695,98 +1706,98 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Su & Hareket",
-          "en": "Water & Movement",
-          "ar": "ماء وحركة"
+          "tr": "Havuz servisi",
+          "en": "Pool service",
+          "ar": "خدمة المسابح"
         },
         "title": {
-          "tr": "Nasıl çalışır?",
-          "en": "How does it work?",
-          "ar": "كيف يعمل؟"
+          "tr": "Havuz hizmetlerimiz",
+          "en": "Our pool services",
+          "ar": "خدمات المسابح لدينا"
         },
         "description": {
-          "tr": "Kayıttan dengeye; dersten takibe.",
-          "en": "From registration to balance; from lesson to tracking.",
-          "ar": "من التسجيل إلى التوازن؛ من الدرس إلى المتابعة."
+          "tr": "Su kalitesinden ekipman bakımına, sezon hazırlığından arıza servisine.",
+          "en": "From water quality to equipment care, from season prep to repair visits.",
+          "ar": "من جودة المياه إلى صيانة المعدات، ومن تجهيز الموسم إلى زيارات الإصلاح."
         }
       },
       "data": [
         {
           "icon": "pool",
           "name": {
-            "tr": "Havuz bakımı",
-            "en": "Pool maintenance",
-            "ar": "صيانة المسبح"
+            "tr": "Periyodik havuz bakımı",
+            "en": "Periodic pool maintenance",
+            "ar": "الصيانة الدورية للمسبح"
           },
           "description": {
-            "tr": "Su ve filtre bakımı.",
-            "en": "Water and filter maintenance.",
-            "ar": "صيانة ماء وفلتر."
+            "tr": "Haftalık veya aylık ziyaretle temizlik, su dengesi ve ekipman kontrolü.",
+            "en": "Weekly or monthly visits for cleaning, water balance and equipment checks.",
+            "ar": "زيارات أسبوعية أو شهرية للتنظيف وتوازن المياه وفحص المعدات."
           }
         },
         {
-          "icon": "sports_esports",
-          "name": {
-            "tr": "Yüzme dersi",
-            "en": "Swimming lesson",
-            "ar": "درس سباحة"
-          },
-          "description": {
-            "tr": "Başlangıç ve gelişim dersi.",
-            "en": "Beginner and progress lesson.",
-            "ar": "درس مبتدئ ومتقدم."
-          }
-        },
-        {
-          "icon": "beach_access_access",
-          "name": {
-            "tr": "Kıyafet ve alan",
-            "en": "Attire and area",
-            "ar": "ملابس ومنطقة"
-          },
-          "description": {
-            "tr": "Kıyafet değişim alanı.",
-            "en": "Attire change area.",
-            "ar": "منطقة تبديل ملابس."
-          }
-        },
-        {
-          "icon": "monitoring",
+          "icon": "science",
           "name": {
             "tr": "Su analizi",
             "en": "Water analysis",
-            "ar": "تحليل الماء"
+            "ar": "تحليل المياه"
           },
           "description": {
-            "tr": "Su klor ve pH kontrolü (demo).",
-            "en": "Chlorine and pH water control (demo).",
-            "ar": "تحقق كلور و PH للماء (تجريبي)."
+            "tr": "pH, klor ve sertlik ölçümü; sonuçlar rapor olarak paylaşılır.",
+            "en": "pH, chlorine and hardness measurement; results are shared as a report.",
+            "ar": "قياس الحموضة والكلور وعسر الماء، ومشاركة النتائج في تقرير."
           }
         },
         {
-          "icon": "timer",
+          "icon": "settings",
           "name": {
-            "tr": "Seans takvimi",
-            "en": "Session calendar",
-            "ar": "تقويم جلسة"
+            "tr": "Filtre ve pompa servisi",
+            "en": "Filter and pump service",
+            "ar": "خدمة الفلتر والمضخة"
           },
           "description": {
-            "tr": "Seans ve rezervasyon.",
-            "en": "Session and reservation.",
-            "ar": "جلسة وحجز."
+            "tr": "Kum filtre, pompa ve dozaj ekipmanının bakımı ve onarımı.",
+            "en": "Maintenance and repair of sand filters, pumps and dosing equipment.",
+            "ar": "صيانة وإصلاح فلاتر الرمل والمضخات ومعدات الجرعات."
           }
         },
         {
-          "icon": "first_aid",
+          "icon": "cleaning_services",
           "name": {
-            "tr": "Yanında güvenlik",
-            "en": "On-site safety",
-            "ar": "سلامة الموقع"
+            "tr": "Temizlik ve vakumlama",
+            "en": "Cleaning and vacuuming",
+            "ar": "التنظيف والكنس بالمكنسة"
           },
           "description": {
-            "tr": "Kurtarma ve güvenlik kontrolü.",
-            "en": "Rescue and safety control.",
-            "ar": "إسعاف وتحقق أمان."
+            "tr": "Zemin vakumlama, yüzey toplama ve yosun temizliği.",
+            "en": "Floor vacuuming, skimming and algae removal.",
+            "ar": "كنس قاع المسبح وجمع الشوائب من السطح وإزالة الطحالب."
+          }
+        },
+        {
+          "icon": "wb_sunny",
+          "name": {
+            "tr": "Sezon açılışı ve kapanışı",
+            "en": "Season opening and closing",
+            "ar": "افتتاح الموسم وإغلاقه"
+          },
+          "description": {
+            "tr": "Sezon öncesi devreye alma, kış kapama ve örtü montajı.",
+            "en": "Pre-season start-up, winterising and cover fitting.",
+            "ar": "التشغيل قبل الموسم والإغلاق الشتوي وتركيب الغطاء."
+          }
+        },
+        {
+          "icon": "build",
+          "name": {
+            "tr": "Arıza servisi",
+            "en": "Repair service",
+            "ar": "خدمة الإصلاح"
+          },
+          "description": {
+            "tr": "Kaçak, pompa ve elektrik arızalarında müdahale.",
+            "en": "Response to leaks, pump and electrical faults.",
+            "ar": "التدخل عند التسربات وأعطال المضخات والأعطال الكهربائية."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Servis akışı",
+          "en": "Service flow",
+          "ar": "مسار الخدمة"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Dört adımda havuz servisi",
+          "en": "Pool service in four steps",
+          "ar": "خدمة المسبح في أربع خطوات"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Keşiften ölçüm raporuna.",
+          "en": "From the survey to the measurement report.",
+          "ar": "من المعاينة إلى تقرير القياسات."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1836,53 +1847,53 @@
         {
           "year": "01",
           "title": {
-            "tr": "Kayıt",
-            "en": "Registration",
-            "ar": "التسجيل"
+            "tr": "Keşif",
+            "en": "Survey",
+            "ar": "المعاينة"
           },
           "text": {
-            "tr": "Ders ve seviye seçimi.",
-            "en": "Lesson and level selection.",
-            "ar": "اختيار درس ومستوى."
+            "tr": "Havuzun ölçüsü, ekipmanı ve durumu yerinde görülür.",
+            "en": "Pool size, equipment and condition are checked on site.",
+            "ar": "يُعاين حجم المسبح ومعداته وحالته في الموقع."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Seviye",
-            "en": "Level",
-            "ar": "المستوى"
+            "tr": "Bakım planı",
+            "en": "Maintenance plan",
+            "ar": "خطة الصيانة"
           },
           "text": {
-            "tr": "Su ve korku testi.",
-            "en": "Water and fear test.",
-            "ar": "اختبار ماء وخوف."
+            "tr": "Ziyaret sıklığı ve kimyasal programı belirlenir.",
+            "en": "Visit frequency and chemical programme are set.",
+            "ar": "يُحدَّد تكرار الزيارات وبرنامج المواد الكيميائية."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Ders",
-            "en": "Lesson",
-            "ar": "درس"
+            "tr": "Servis ziyareti",
+            "en": "Service visit",
+            "ar": "زيارة الخدمة"
           },
           "text": {
-            "tr": "Seans ve teknik işi.",
-            "en": "Session and technique work.",
-            "ar": "جلسة وشغل تقنية."
+            "tr": "Temizlik, su analizi ve ekipman kontrolü yapılır.",
+            "en": "Cleaning, water analysis and equipment checks are carried out.",
+            "ar": "يتم التنظيف وتحليل المياه وفحص المعدات."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Takip",
-            "en": "Tracking",
-            "ar": "التتبع"
+            "tr": "Rapor",
+            "en": "Report",
+            "ar": "التقرير"
           },
           "text": {
-            "tr": "Gelişim notu ve rapor.",
-            "en": "Progress note and report.",
-            "ar": "ملاحظة تقدم وتقريب."
+            "tr": "Ölçümler ve yapılan işler kayda geçer.",
+            "en": "Measurements and work done are recorded.",
+            "ar": "تُسجَّل القياسات والأعمال المنجزة."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Servis ekibi",
+          "en": "Service crew",
+          "ar": "فريق الخدمة"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Havuzunuza gelen ekip",
+          "en": "The crew that visits your pool",
+          "ar": "الفريق الذي يزور مسبحك"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,42 +1943,42 @@
         {
           "name": "Deniz L.",
           "role": {
-            "tr": "Teknik Servis Uzmanı",
-            "en": "Technical service specialist",
-            "ar": "أخصائي الخدمة الفنية"
+            "tr": "Servis teknisyeni",
+            "en": "Service technician",
+            "ar": "فني خدمة"
           },
           "bio": {
-            "tr": "10 yıl yüzme.",
-            "en": "10 years of swimming.",
-            "ar": "١٠ سنوات في السباحة."
+            "tr": "10 yıl havuz bakımı ve filtre servisi.",
+            "en": "10 years in pool maintenance and filter service.",
+            "ar": "10 سنوات في صيانة المسابح وخدمة الفلاتر."
           },
           "img": ""
         },
         {
           "name": "Uğur B.",
           "role": {
-            "tr": "Bakım Teknisyeni",
-            "en": "Maintenance technician",
-            "ar": "فني صيانة"
+            "tr": "Su analizi uzmanı",
+            "en": "Water analysis specialist",
+            "ar": "أخصائي تحليل المياه"
           },
           "bio": {
-            "tr": "7 yıl filtre.",
-            "en": "7 years of filter.",
-            "ar": "٧ سنوات في الفلتر."
+            "tr": "7 yıl su kimyası ve saha ölçümü.",
+            "en": "7 years in water chemistry and field testing.",
+            "ar": "7 سنوات في كيمياء المياه والقياس الميداني."
           },
           "img": ""
         },
         {
           "name": "Aslı T.",
           "role": {
-            "tr": "Güvenlik Sorumlusu",
-            "en": "Safety officer",
-            "ar": "مسؤولة السلامة"
+            "tr": "Saha sorumlusu",
+            "en": "Field supervisor",
+            "ar": "مشرفة ميدانية"
           },
           "bio": {
-            "tr": "5 yıl kurtarma.",
-            "en": "5 years of rescue.",
-            "ar": "٥ سنوات في الإسعاف."
+            "tr": "5 yıl bakım planlama ve ziyaret takibi.",
+            "en": "5 years in maintenance planning and visit tracking.",
+            "ar": "5 سنوات في تخطيط الصيانة ومتابعة الزيارات."
           },
           "img": ""
         }
@@ -1998,14 +2009,14 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "Havuz sahipleri ne diyor?",
+          "en": "What pool owners say",
+          "ar": "ماذا يقول أصحاب المسابح؟"
         },
         "description": {
           "tr": "Kurgusal demo yorumlar.",
@@ -2019,46 +2030,46 @@
         {
           "name": "E. Karaca.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "زبون"
+            "tr": "Site yöneticisi",
+            "en": "Residential complex manager",
+            "ar": "مدير مجمع سكني"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Seans düzenli; seviye net.",
-            "en": "Session regular; level clear.",
-            "ar": "جلسة منتظمة؛ المستوى واضح."
+            "tr": "Haftalık ziyaretler aksamıyor; su hep berrak.",
+            "en": "Weekly visits never slip; the water is always clear.",
+            "ar": "الزيارات الأسبوعية منتظمة والماء دائمًا صافٍ."
           }
         },
         {
           "name": "R. Yıldız.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "زبون"
+            "tr": "Otel teknik müdürü",
+            "en": "Hotel technical manager",
+            "ar": "المدير الفني لفندق"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Su kontrolü rapor açık.",
-            "en": "Water control report transparent.",
-            "ar": "تقرير تحقق الماء شفاف."
+            "tr": "Her ziyaretten sonra su analizi raporu geliyor; ne yapıldığı belli.",
+            "en": "After every visit we get a water analysis report, so we know what was done.",
+            "ar": "بعد كل زيارة يصلنا تقرير تحليل المياه فنعرف ما تم إنجازه."
           }
         },
         {
           "name": "S. Aydın.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "زبون"
+            "tr": "Villa sahibi",
+            "en": "Villa owner",
+            "ar": "مالك فيلا"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Ders akışı sakin ve düzenli.",
-            "en": "Lesson flow calm and regular.",
-            "ar": "مسار الدرس هادئ ومنظم."
+            "tr": "Pompa arızasında ekip aynı gün geldi.",
+            "en": "The crew came the same day when the pump failed.",
+            "ar": "حضر الفريق في اليوم نفسه عند تعطل المضخة."
           }
         }
       ],
@@ -2103,17 +2114,17 @@
         "radius": "4px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Havuzda neler yapıyoruz?",
+          "en": "What we do at the pool",
+          "ar": "ماذا نفعل في المسبح؟"
         },
         "title": {
-          "tr": "Nasıl çalışır?",
-          "en": "How does it work?",
-          "ar": "كيف يعمل؟"
+          "tr": "Havuz hizmetlerimiz",
+          "en": "Our pool services",
+          "ar": "خدمات المسابح لدينا"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
@@ -2126,16 +2137,16 @@
       "data": [
         {
           "baslik": {
-            "tr": "Havuz bakımı",
-            "en": "Pool maintenance",
-            "ar": "صيانة المسبح"
+            "tr": "Periyodik havuz bakımı",
+            "en": "Periodic pool maintenance",
+            "ar": "الصيانة الدورية للمسبح"
           },
           "metin": {
-            "tr": "Su ve filtre bakımı.",
-            "en": "Water and filter maintenance.",
-            "ar": "صيانة ماء وفلتر."
+            "tr": "Haftalık veya aylık ziyaretle temizlik, su dengesi ve ekipman kontrolü.",
+            "en": "Weekly or monthly visits for cleaning, water balance and equipment checks.",
+            "ar": "زيارات أسبوعية أو شهرية للتنظيف وتوازن المياه وفحص المعدات."
           },
-          "img": "spor-agirlik.webp",
+          "img": "otel-havuz.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2145,16 +2156,16 @@
         },
         {
           "baslik": {
-            "tr": "Yüzme dersi",
-            "en": "Swimming lesson",
-            "ar": "درس سباحة"
+            "tr": "Su analizi",
+            "en": "Water analysis",
+            "ar": "تحليل المياه"
           },
           "metin": {
-            "tr": "Başlangıç ve gelişim dersi.",
-            "en": "Beginner and progress lesson.",
-            "ar": "درس مبتدئ ومتقدم."
+            "tr": "pH, klor ve sertlik ölçümü; sonuçlar rapor olarak paylaşılır.",
+            "en": "pH, chlorine and hardness measurement; results are shared as a report.",
+            "ar": "قياس الحموضة والكلور وعسر الماء، ومشاركة النتائج في تقرير."
           },
-          "img": "spor-kettlebell.webp",
+          "img": "enerji-pano.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2164,16 +2175,16 @@
         },
         {
           "baslik": {
-            "tr": "Kıyafet ve alan",
-            "en": "Attire and area",
-            "ar": "ملابس ومنطقة"
+            "tr": "Filtre ve pompa servisi",
+            "en": "Filter and pump service",
+            "ar": "خدمة الفلتر والمضخة"
           },
           "metin": {
-            "tr": "Kıyafet değişim alanı.",
-            "en": "Attire change area.",
-            "ar": "منطقة تبديل ملابس."
+            "tr": "Kum filtre, pompa ve dozaj ekipmanının bakımı ve onarımı.",
+            "en": "Maintenance and repair of sand filters, pumps and dosing equipment.",
+            "ar": "صيانة وإصلاح فلاتر الرمل والمضخات ومعدات الجرعات."
           },
-          "img": "spor-kosu-bandi.webp",
+          "img": "sanayi-ekip-saha.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,14 +2240,14 @@
         "radius": "4px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Servis verdiğimiz tesisler",
+          "en": "Facilities we serve",
+          "ar": "المنشآت التي نخدمها"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal tesis adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional facility names; they do not belong to a real organisation.",
+          "ar": "أسماء منشآت افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,22 +2257,22 @@
       },
       "data": [
         {
-          "name": "Demo Havuz"
+          "name": "Demo Site Yönetimi"
         },
         {
-          "name": "Demo Ders"
+          "name": "Demo Otel"
         },
         {
-          "name": "Demo Su"
+          "name": "Demo Villa Sitesi"
         },
         {
-          "name": "Demo Kurtarma"
+          "name": "Demo Apart"
         },
         {
-          "name": "Demo Seans"
+          "name": "Demo Tatil Köyü"
         },
         {
-          "name": "Demo Takip"
+          "name": "Demo Spor Kulübü"
         }
       ],
       "veri": {
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Havuz suyu ne sıklıkla kontrol edilir?",
+            "en": "How often is the pool water checked?",
+            "ar": "كم مرة يُفحص ماء المسبح؟"
+          },
+          "answer": {
+            "tr": "Sezonda her ziyarette pH ve klor ölçülür; sıklık havuz tipine göre belirlenir.",
+            "en": "During the season pH and chlorine are measured at every visit; frequency depends on the pool type.",
+            "ar": "في الموسم تُقاس الحموضة والكلور في كل زيارة، ويُحدَّد التكرار حسب نوع المسبح."
+          },
           "soru": {
-            "tr": "Su kalitesi nasıl kontrol?",
-            "en": "How is water quality controlled?",
-            "ar": "كيف يتحقق جودة الماء?"
+            "tr": "Havuz suyu ne sıklıkla kontrol edilir?",
+            "en": "How often is the pool water checked?",
+            "ar": "كم مرة يُفحص ماء المسبح؟"
           },
           "cevap": {
-            "tr": "pH ve klor günlük ölçüm; demo metindir.",
-            "en": "Daily pH and chlorine measurement; this is a demo text.",
-            "ar": "قياس يومي PH وكلور؛ هذا نص تجريبي."
+            "tr": "Sezonda her ziyarette pH ve klor ölçülür; sıklık havuz tipine göre belirlenir.",
+            "en": "During the season pH and chlorine are measured at every visit; frequency depends on the pool type.",
+            "ar": "في الموسم تُقاس الحموضة والكلور في كل زيارة، ويُحدَّد التكرار حسب نوع المسبح."
           }
         },
         {
+          "question": {
+            "tr": "Kış kapama ve sezon açılışı yapıyor musunuz?",
+            "en": "Do you do winterising and season opening?",
+            "ar": "هل تقدمون الإغلاق الشتوي وافتتاح الموسم؟"
+          },
+          "answer": {
+            "tr": "Evet; ekipman boşaltma, örtü montajı ve sezon başı devreye alma hizmeti verilir.",
+            "en": "Yes; draining equipment, cover fitting and spring start-up are offered.",
+            "ar": "نعم؛ نقدّم تفريغ المعدات وتركيب الغطاء والتشغيل مع بداية الموسم."
+          },
           "soru": {
-            "tr": "Ders kaç kişilik?",
-            "en": "How many people per lesson?",
-            "ar": "كم عدد الطلاب للدرس?"
+            "tr": "Kış kapama ve sezon açılışı yapıyor musunuz?",
+            "en": "Do you do winterising and season opening?",
+            "ar": "هل تقدمون الإغلاق الشتوي وافتتاح الموسم؟"
           },
           "cevap": {
-            "tr": "Seviye grubuna göre; demo metni değil.",
-            "en": "By level group; not a demo text.",
-            "ar": "حسب المجموعة؛ غير نص تجريبي."
+            "tr": "Evet; ekipman boşaltma, örtü montajı ve sezon başı devreye alma hizmeti verilir.",
+            "en": "Yes; draining equipment, cover fitting and spring start-up are offered.",
+            "ar": "نعم؛ نقدّم تفريغ المعدات وتركيب الغطاء والتشغيل مع بداية الموسم."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
             "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Fiyatlar nasıl belirlenir?",
+            "en": "How are prices determined?",
+            "ar": "كيف تُحدَّد الأسعار؟"
+          },
+          "answer": {
+            "tr": "Havuzun hacmine, ziyaret sıklığına ve ekipmana göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
+            "en": "A quote based on pool volume, visit frequency and equipment sets the price; a general range is not shown in this demo text.",
+            "ar": "يُحدَّد السعر عبر عرض سعر حسب حجم المسبح وتكرار الزيارات والمعدات؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+          },
           "soru": {
             "tr": "Fiyatlar nasıl belirlenir?",
             "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "ar": "كيف تُحدَّد الأسعار؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Havuzun hacmine, ziyaret sıklığına ve ekipmana göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
+            "en": "A quote based on pool volume, visit frequency and equipment sets the price; a general range is not shown in this demo text.",
+            "ar": "يُحدَّد السعر عبر عرض سعر حسب حجم المسبح وتكرار الزيارات والمعدات؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
           }
         }
       ],
@@ -2406,9 +2457,9 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "4px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Servis talebi",
+          "en": "Service request",
+          "ar": "طلب خدمة"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
@@ -2421,22 +2472,22 @@
           "ar": "Fit Havuz"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
+          "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
           "ar": "الصور تمثيلية وهذا عرض تجريبي."
         },
         "address": {
-          "tr": "Tempo Sokak No: 8, Şahinbey, Gaziantep (kurgusal adres)",
-          "en": "8 Tempo Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع تيمبو رقم 8، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "tr": "Mavi Sokak No: 8, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "8 Mavi Street, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع مافي رقم 8، شاهين بيه، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 020 01 04",
         "whatsapp": "903420200104",
         "email": "fit@fithavuz.example",
         "hours": {
-          "tr": "Her gün 06:00 – 23:00",
-          "en": "Every day 06:00 – 23:00",
-          "ar": "كل يوم 06:00 – 23:00"
+          "tr": "Hafta içi 08:00 – 18:00 · Cumartesi 09:00 – 14:00",
+          "en": "Weekdays 08:00 – 18:00 · Saturday 09:00 – 14:00",
+          "ar": "أيام الأسبوع 08:00 – 18:00 · السبت 09:00 – 14:00"
         },
         "mapUrl": "",
         "mapEmbed": "",
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Servis formu",
+          "en": "Service form",
+          "ar": "نموذج الخدمة"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Periyodik bakım",
+              "en": "Periodic maintenance",
+              "ar": "صيانة دورية"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Su analizi",
+              "en": "Water analysis",
+              "ar": "تحليل المياه"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Arıza servisi",
+              "en": "Repair service",
+              "ar": "خدمة إصلاح"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,32 +2691,32 @@
           "ar": "Fit Havuz"
         },
         "description": {
-          "tr": "Fit Havuz, fitness ve havuz sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Fit offers fitness and pool. Images are representative and text is fictional.",
-          "ar": "يقدم فيت لياقة ومسبح. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Fit Havuz; konut, site ve otel havuzlarına periyodik bakım, su analizi ve filtre-pompa servisi veren bir havuz servis firmasıdır. Görseller temsilidir; metinler kurgusaldır.",
+          "en": "Fit Havuz is a pool service company providing periodic maintenance, water analysis and filter-pump service for home, residential-complex and hotel pools. Images are representative and text is fictional.",
+          "ar": "Fit Havuz شركة خدمة مسابح تقدم الصيانة الدورية وتحليل المياه وخدمة الفلتر والمضخة لمسابح المنازل والمجمعات السكنية والفنادق. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Kıyafet alanı",
-          "en": "Attire area",
-          "ar": "منطقة الملابس"
+          "tr": "Ekipman deposu",
+          "en": "Equipment stock",
+          "ar": "مخزن المعدات"
         },
         "spot2": {
-          "tr": "Ders arası değişim ve kuruma alanı.",
-          "en": "A change and dry area between lessons.",
-          "ar": "منطقة تبديل وتجفيف بين الدروس."
+          "tr": "Filtre kumu, pompa ve yedek parça hazır.",
+          "en": "Filter sand, pumps and spare parts on hand.",
+          "ar": "رمل الفلاتر والمضخات وقطع الغيار جاهزة."
         },
-        "icon2": "verified",
+        "icon2": "inventory_2",
         "name3": {
-          "tr": "Değerlendirme defteri",
-          "en": "Assessment book",
-          "ar": "دفتر التقويم"
+          "tr": "Bakım kayıt defteri",
+          "en": "Maintenance log",
+          "ar": "سجل الصيانة"
         },
         "spot3": {
-          "tr": "Her üye için değerlendirme raporu.",
-          "en": "An assessment report for each member.",
-          "ar": "تقرير تقويم لكل عضو."
+          "tr": "Her havuz için ölçüm ve işlem kaydı.",
+          "en": "A measurement and work record for each pool.",
+          "ar": "سجل القياسات والأعمال لكل مسبح."
         },
-        "icon3": "schedule",
+        "icon3": "assignment",
         "img": "spor-havuz.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
@@ -2729,17 +2781,17 @@
           "ar": "تواصل معنا"
         },
         "description": {
-          "tr": "Her gün 06:00 – 23:00",
-          "en": "Every day 06:00 – 23:00",
-          "ar": "كل يوم 06:00 – 23:00"
+          "tr": "Hafta içi 08:00 – 18:00 · Cumartesi 09:00 – 14:00",
+          "en": "Weekdays 08:00 – 18:00 · Saturday 09:00 – 14:00",
+          "ar": "أيام الأسبوع 08:00 – 18:00 · السبت 09:00 – 14:00"
         },
         "phone": "+90 342 020 01 04",
         "whatsapp": "903420200104",
         "email": "fit@fithavuz.example",
         "address": {
-          "tr": "Tempo Sokak No: 8, Şahinbey, Gaziantep (kurgusal adres)",
-          "en": "8 Tempo Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع تيمبو رقم 8، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "tr": "Mavi Sokak No: 8, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "8 Mavi Street, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع مافي رقم 8، شاهين بيه، غازي عنتاب (عنوان افتراضي)"
         },
         "mapsUrl": "",
         "waMessage": {
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Hafta içi 08:00 – 18:00 · Cumartesi 09:00 – 14:00",
+          "en": "Weekdays 08:00 – 18:00 · Saturday 09:00 – 14:00",
+          "ar": "أيام الأسبوع 08:00 – 18:00 · السبت 09:00 – 14:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2847,19 +2899,19 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "4px",
         "title": {
-          "tr": "Tempo hazır",
-          "en": "Tempo ready",
-          "ar": "الإيقاع جاهز"
+          "tr": "Sezona hazır olun",
+          "en": "Get ready for the season",
+          "ar": "استعد للموسم"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Havuzunuz için servis talebi bırakın; iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "Leave a service request for your pool; we reply within two business days. No data is stored on this demo site.",
+          "ar": "اترك طلب خدمة لمسبحك؛ نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Servis talebi",
+          "en": "Request service",
+          "ar": "اطلب خدمة"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
@@ -2881,9 +2933,9 @@
           "ar": "راسلنا عبر واتساب"
         },
         "hours": {
-          "tr": "Her gün 06:00 – 23:00",
-          "en": "Every day 06:00 – 23:00",
-          "ar": "كل يوم 06:00 – 23:00"
+          "tr": "Hafta içi 08:00 – 18:00 · Cumartesi 09:00 – 14:00",
+          "en": "Weekdays 08:00 – 18:00 · Saturday 09:00 – 14:00",
+          "ar": "أيام الأسبوع 08:00 – 18:00 · السبت 09:00 – 14:00"
         },
         "hoursLabel": {
           "tr": "Çalışma saatleri",
@@ -2947,7 +2999,7 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "4px",
         "logo_maxh": "52px",
-        "logo_plate": false,
+        "logo_plate": true,
         "about": {
           "tr": "Fit Havuz demo temadır; içerik kurgusaldır.",
           "en": "Fit Havuz is a demo theme; the content is fictional.",
@@ -3054,9 +3106,9 @@
         ],
         "hours": [],
         "address": {
-          "tr": "Tempo Sokak No: 8, Şahinbey, Gaziantep (kurgusal adres)",
-          "en": "8 Tempo Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع تيمبو رقم 8، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "tr": "Mavi Sokak No: 8, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "8 Mavi Street, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع مافي رقم 8، شاهين بيه، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 020 01 04",
         "email": "fit@fithavuz.example",

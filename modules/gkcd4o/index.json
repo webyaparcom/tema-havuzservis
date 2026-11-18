@@ -24,6 +24,7 @@
     "cta_ad": "",
     "cta_url": "",
     "tel": "",
+    "logoimg": "",
     "bg": "var(--mx-site-primary, #2563eb)",
     "text": "var(--mx-site-primary-contrast, #ffffff)",
     "muted": "color-mix(in srgb, var(--mx-site-primary-contrast, #ffffff) 92%, var(--mx-site-primary, #2563eb))",
